@@ -1,3 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .text-edit{
+        @apply text-xs mx-2 hover:underline text-[#737373];
+    }
+
+    .text-edit2{
+        @apply text-sm text-[#737373];
+    }
+
+    .insta-card{
+        @apply flex justify-center items-center py-12 md:py-0 md:gap-10;
+    }
+
+    .img-section{
+        @apply hidden md:block;
+    }
+
+    .login-box{
+        @apply md:border px-12 py-8 mb-4;
+    }
+
+    .header{
+        @apply flex justify-center items-center;
+    }
+
+    .header-text{
+        @apply text-4xl pb-10;
+    }
+    
+    .login{
+        @apply flex flex-col w-60 mb-5;
+    }
+
+    .form-box{
+        @apply flex flex-col w-60 mb-5;
+    }
+
+    .login-input{
+        @apply border px-2 py-2 mb-2 text-xs;
+    }
+
+    .password-input{
+        @apply border px-2 py-2 mb-4 text-xs;
+    }
+
+    .btn-primary{
+        @apply bg-[#4CB5F9] py-1 px-6 rounded-md text-white;
+    }
+
+    .gap-between{
+        @apply flex justify-center h-4 gap-4 mb-4;
+    }
+
+    .border-line1{
+        @apply flex h-0 pt-2 items-center;
+    }
+
+    .single-text{
+        @apply text-[#737373] font-semibold text-sm;
+    }
+
+    .border-line2{
+        @apply flex h-0 pt-2 items-center;
+    }
+
+    .facebook{
+        @apply font-semibold text-[#385185];
+    }
+
+    .forgot-pw{
+        @apply flex justify-center text-xs;
+    }
+
+    .new-acc{
+        @apply md:border py-8 md:py-4 px-4 flex justify-center mb-4;
+    }
+
+    .get-app{
+        @apply flex justify-center py-10 md:py-0 mb-4;
+    }
+
+    .img2-section{
+        @apply flex justify-center gap-2;
+    }
+
+    .footer-card{
+        @apply md:flex text-center justify-center w-full items-center gap-4 mb-4 md:mt-14;
+    }
+
+    .dropdown{
+        @apply flex justify-center gap-8 mb-10;
+    }
+}
